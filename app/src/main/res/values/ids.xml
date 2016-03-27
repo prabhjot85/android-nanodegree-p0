@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spotifyMessage" type="id">This button will launch my spotifyMessage!</item>
+</resources>

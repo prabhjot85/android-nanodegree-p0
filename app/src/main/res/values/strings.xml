@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="spotifyMessage" type="id">This will launch my Spotify Streamer App!</string>
+    <string name="scoreAppMessage">This will launch Score App!</string>
+    <string name="xyzReaderMessage">This will launch XYZ Reader App!</string>
+    <string name="capstoneMessage">This will launch my captone app!</string>
+    <string name="libraryMessage">This will launch my library app!</string>
+    <string name="buildBiggerMessage">This will launch my build it bigger app!</string>
+</resources>
