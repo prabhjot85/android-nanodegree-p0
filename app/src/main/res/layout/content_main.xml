@@ -1,128 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center_horizontal"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.prabh.appportfolio.MainActivity"
-    tools:showIn="@layout/activity_main">
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.prabh.appportfolio.MainActivity"
+        tools:showIn="@layout/activity_main">
 
 
-    <TableLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp">
-
-        <TableRow
+        <TableLayout
             android:layout_width="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp">
 
-            <TextView
-                android:id="@+id/textView"
-                android:text="My Nanodegree Apps!"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-        </TableRow>
-
-
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_height="wrap_content">
-
-            <Button
-                android:id="@+id/button1"
+            <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#F08C35"
-                android:onClick="spotifyStreamLauncher"
-                android:text="SPOTIFY STREAMER" />
-        </TableRow>
+                android:layout_marginBottom="30dp">
 
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textView"
+                    android:text="My Nanodegree Apps!"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
 
-            <Button
-                android:id="@+id/scoresButton"
+
+            <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#F08C35"
-                android:onClick="scoresAppLauncher"
-                android:text="SCORES APP" />
-        </TableRow>
+                android:layout_marginBottom="10dp">
 
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F08C35"
+                    android:onClick="spotifyStreamLauncher"
+                    android:text="SPOTIFY STREAMER" />
+            </TableRow>
 
-            <Button
-                android:id="@+id/libraryAppButton"
+            <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#F08C35"
-                android:onClick="libraryAppLauncher"
-                android:text="LIBRARY APP" />
-        </TableRow>
+                android:layout_marginBottom="10dp">
 
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/scoresButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F08C35"
+                    android:onClick="scoresAppLauncher"
+                    android:text="SCORES APP" />
+            </TableRow>
 
-            <Button
-                android:id="@+id/buildBiggerButton"
+            <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#F08C35"
-                android:onClick="buildBiggerLauncher"
-                android:text="BUILD IT BIGGER" />
-        </TableRow>
+                android:layout_marginBottom="10dp">
 
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/libraryAppButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F08C35"
+                    android:onClick="libraryAppLauncher"
+                    android:text="LIBRARY APP" />
+            </TableRow>
 
-            <Button
-                android:id="@+id/xyzReaderButton"
+            <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#F08C35"
-                android:onClick="xyzReaderLauncher"
-                android:text="XYZ READER" />
-        </TableRow>
+                android:layout_marginBottom="10dp">
 
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/buildBiggerButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F08C35"
+                    android:onClick="buildBiggerLauncher"
+                    android:text="BUILD IT BIGGER" />
+            </TableRow>
 
-            <Button
-                android:id="@+id/capstoneButton"
+            <TableRow
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:textColor="@android:color/white"
-                android:background="#E91E63"
-                android:onClick="capstoneLauncher"
-                android:text="CAPSTONE: MY OWN APP" />
-        </TableRow>
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/xyzReaderButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F08C35"
+                    android:onClick="xyzReaderLauncher"
+                    android:text="XYZ READER" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/capstoneButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#E91E63"
+                    android:onClick="capstoneLauncher"
+                    android:text="CAPSTONE: MY OWN APP"
+                    android:textColor="@android:color/white" />
+            </TableRow>
 
 
-    </TableLayout>
+        </TableLayout>
 
 
-</LinearLayout>
+    </LinearLayout>
 
-
+</ScrollView>
 
 
 
